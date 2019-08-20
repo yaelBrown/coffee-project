@@ -1,5 +1,7 @@
 "use strict"
 
+console.log("coffee app loaded");
+
 function renderCoffee(coffee) {
     var html = '<tr class="coffee">';
     html += '<td>' + coffee.id + '</td>';
